@@ -6,15 +6,15 @@ use warnings FATAL => 'all';
 
 =head1 NAME
 
-Bundle::Unicheck - Uninets::Check bundled with a set of modules.
+Bundle::Unicheck - App::Unicheck bundled with a set of modules.
 
 =head1 VERSION
 
-Version 0.01
+Version 0.03
 
 =cut
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 
 =head1 SYNOPSIS
@@ -23,10 +23,13 @@ C<perl -MCPAN -e 'install Bundle::Unicheck'>
 
 =head1 CONTENTS
 
-Uninets::Check
-Uninets::Check::Modules::HTTP
-Uninets::Check::Modules::Redis
-Uninets::Check::Modules::MongoDB
+App::Unicheck
+
+App::Unicheck::Modules::HTTP
+
+App::Unicheck::Modules::Redis
+
+App::Unicheck::Modules::MongoDB
 
 =head1 AUTHOR
 
